@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Thandizo Development Team</Authors>
+    <Company>Thandizo</Company>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
 </Project>
