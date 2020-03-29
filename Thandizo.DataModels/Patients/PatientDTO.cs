@@ -22,5 +22,7 @@ namespace Thandizo.DataModels.Patients
         public string Latitude { get; set; }
         public string Longitude { get; set; }
         public int PatientStatusId { get; set; }
+        public string NationalityCode { get; set; }
+        public int ClassificationId { get; set; }
     }
 }
