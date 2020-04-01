@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.Resources
 {
     public class ResourceAllocationDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Resource Allocation Id cannot be blank")]
-        [Range(1, long.MaxValue, ErrorMessage = "Please enter valid integer number for Resource Allocation Id")]
         public long ResourceAllocationId { get; set; }
 
         [Required(ErrorMessage = "Patient Status Id cannot be blank")]

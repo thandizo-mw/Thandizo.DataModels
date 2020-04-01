@@ -6,8 +6,6 @@ namespace Thandizo.DataModels.Patients
 {
     public class PatientHistoryDTO : DataCreatorDTO
     {
-        [Required(ErrorMessage = "History Id cannot be blank")]
-        [Range(1, long.MaxValue, ErrorMessage = "Please enter valid number for history Id")]
         public long HistoryId { get; set; }
 
         [Required(ErrorMessage = "Patient Id cannot be blank")]

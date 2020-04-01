@@ -6,8 +6,6 @@ namespace Thandizo.DataModels.Patients
 {
     public class PatientDailyStatusDTO : DataCreatorDTO
     {
-        [Required(ErrorMessage = "Submission Id cannot be blank")]
-        [Range(1, long.MaxValue, ErrorMessage = "Please enter valid number for Submission Id")]
         public long SubmissionId { get; set; }
 
         [Required(ErrorMessage = "Symptom Id cannot be blank")]

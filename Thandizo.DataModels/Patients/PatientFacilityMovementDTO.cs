@@ -6,8 +6,6 @@ namespace Thandizo.DataModels.Patients
 {
     public class PatientFacilityMovementDTO : DataCreatorDTO
     {
-        [Required(ErrorMessage = "Movement Id cannot be blank")]
-        [Range(1, long.MaxValue, ErrorMessage = "Please enter valid number for Movement Id")]
         public long MovementId { get; set; }
 
         [Required(ErrorMessage = "Patient Id cannot be blank")]

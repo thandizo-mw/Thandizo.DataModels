@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.Patients
 {
     public class PatientStatusDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Patient Status Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Patient Status Id")]
         public int PatientStatusId { get; set; }
 
         [Required(ErrorMessage = "Patient Status Name cannot be blank")]

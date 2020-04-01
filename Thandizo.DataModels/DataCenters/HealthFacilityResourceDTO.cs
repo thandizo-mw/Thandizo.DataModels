@@ -6,8 +6,6 @@ namespace Thandizo.DataModels.DataCenters
 {
     public class HealthFacilityResourceDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Facility Resource Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid integer number for Facility Resource Id")]
         public int FacilityResourceId { get; set; }
 
         [Required(ErrorMessage = "Center Id cannot be blank")]

@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.DataCenters
 {
     public class FacilityTypeDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Facility Type Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid integer number for Facility Type Id")]
         public int FacilityTypeId { get; set; }
 
         [Required(ErrorMessage = "Facility Type Name cannot be blank")]

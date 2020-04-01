@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.DataCenters
 {
     public class DataCenterDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Center Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid integer number for Center Id")]
         public int CenterId { get; set; }
 
         [Required(ErrorMessage = "Center Name cannot be blank")]

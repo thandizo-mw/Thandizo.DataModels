@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.Resources
 {
     public class ResourceDTO : BaseRowDTO
     {
-        [Required(ErrorMessage = "Resource Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Resource Id")]
         public int ResourceId { get; set; }
 
         [Required(ErrorMessage = "Resource Name cannot be blank")]

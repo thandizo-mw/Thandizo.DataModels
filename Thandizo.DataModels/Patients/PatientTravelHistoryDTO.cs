@@ -5,8 +5,6 @@ namespace Thandizo.DataModels.Patients
 {
     public class PatientTravelHistoryDTO : DataCreatorDTO
     {
-        [Required(ErrorMessage = "Travel Id cannot be blank")]
-        [Range(1, long.MaxValue, ErrorMessage = "Please enter valid Number for Travel Id")]
         public long TravelId { get; set; }
 
         [Required(ErrorMessage = "Country Code cannot be blank")]
