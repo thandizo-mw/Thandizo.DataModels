@@ -76,5 +76,12 @@ namespace Thandizo.DataModels.Patients
         [Required(ErrorMessage = "Classification Id cannot be blank")]
         [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Classification Id")]
         public int ClassificationId { get; set; }
+
+        [Required(ErrorMessage = "Source Id cannot be blank")]
+        [MinLength(2, ErrorMessage = "Minimum number of characters for Source Id is 2")]
+        [MaxLength(2, ErrorMessage = "Maximum number of characters for Source Id is 2")]
+        public string SourceId { get; set; }
+
+        public bool IsConfirmed { get; set; }
     }
 }
