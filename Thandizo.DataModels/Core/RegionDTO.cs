@@ -12,11 +12,9 @@ namespace Thandizo.DataModels.Core
         public string RegionName { get; set; }
 
         [Required(ErrorMessage = "Latitude cannot be blank")]
-        [MaxLength(15, ErrorMessage = "Maximum number of characters for Latitude is 15")]
-        public string Latitude { get; set; }
+        public double Latitude { get; set; }
 
         [Required(ErrorMessage = "Longitude Code cannot be blank")]
-        [MaxLength(15, ErrorMessage = "Maximum number of characters for Longitude is 15")]
-        public string Longitude { get; set; }
+        public double Longitude { get; set; }
     }
 }
