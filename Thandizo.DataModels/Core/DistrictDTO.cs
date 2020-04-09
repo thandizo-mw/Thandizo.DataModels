@@ -6,7 +6,6 @@ namespace Thandizo.DataModels.Core
     public  class DistrictDTO : BaseRowDTO
     {
         [Required(ErrorMessage = "District Code cannot be blank")]
-        [MinLength(2, ErrorMessage = "Minimum number of characters for District Code is 2")]
         [MaxLength(3, ErrorMessage = "Maximum number of characters for District Code is 3")]
         public string DistrictCode { get; set; }
 
