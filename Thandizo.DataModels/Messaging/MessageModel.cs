@@ -6,7 +6,7 @@ namespace Thandizo.DataModels.Messaging
     {
         public string MessageBody { get; set; }
         public string SourceAddress { get; set; }
-        public IList<string> DestinationRecipients { get; } = new List<string>();
+        public List<string> DestinationRecipients { get; set; } = new List<string>();
         public string Subject { get; set; }
     }
 }
