@@ -7,5 +7,6 @@
         public string IdentitificationTypeName { get; set; }
         public string NationalityName { get; set; }
         public string ClassificationName { get; set; }
+        public string SourceName { get; set; }
     }
 }
