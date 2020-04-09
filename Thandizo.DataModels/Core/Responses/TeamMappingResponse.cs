@@ -1,6 +1,6 @@
 ﻿namespace Thandizo.DataModels.Core.Responses
 {
-    public class ResponseTeamMappingResponse
+    public class TeamMappingResponse
     {
         public string DistrictName { get; set; }
     }
