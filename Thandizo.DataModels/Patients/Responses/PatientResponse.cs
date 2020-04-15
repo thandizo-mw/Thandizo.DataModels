@@ -1,4 +1,6 @@
-﻿namespace Thandizo.DataModels.Patients.Responses
+﻿using System;
+
+namespace Thandizo.DataModels.Patients.Responses
 {
     public class PatientResponse : PatientDTO
     {
@@ -8,5 +10,15 @@
         public string NationalityName { get; set; }
         public string ClassificationName { get; set; }
         public string SourceName { get; set; }
+        public int Age
+        {
+            get
+            {
+                var age = DateTime.Now.Year - DateOfBirth.Year;
+                if (DateTime.Now.DayOfYear < DateOfBirth.DayOfYear)
+                    age = age - 1;
+                return age;
+            }
+        }
     }
 }
