@@ -20,5 +20,13 @@ namespace Thandizo.DataModels.Patients.Responses
                 return age;
             }
         }
+        public string GenderName
+        {
+            get
+            {
+                var genderName = Gender.Equals("F")?"Female":"Male";
+                return genderName;
+            }
+        }
     }
 }
