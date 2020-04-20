@@ -67,8 +67,6 @@ namespace Thandizo.DataModels.Patients
         public int IdentificationTypeId { get; set; }
 
         [Display(Name = "Data Center Id")]
-        [Required(ErrorMessage = "Data Center Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid integer number for Data Center Id")]
         public int DataCenterId { get; set; }
 
         [Display(Name = "Latitude")]
@@ -80,8 +78,6 @@ namespace Thandizo.DataModels.Patients
         public string Longitude { get; set; }
 
         [Display(Name = "Patiet Status Id")]
-        [Required(ErrorMessage = "Patient Status Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Patient Status Id")]
         public int PatientStatusId { get; set; }
 
         [Display(Name = "Nationality Code")]
@@ -91,8 +87,6 @@ namespace Thandizo.DataModels.Patients
         public string NationalityCode { get; set; }
 
         [Display(Name = "Classification Id")]
-        [Required(ErrorMessage = "Classification Id cannot be blank")]
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Classification Id")]
         public int ClassificationId { get; set; }
 
         [Display(Name = "Source Id")]
