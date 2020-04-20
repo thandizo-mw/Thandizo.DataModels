@@ -44,5 +44,8 @@ namespace Thandizo.DataModels.Patients.Responses
                 return genderName;
             }
         }
+
+        [Display(Name = "Country Of Residence")]
+        public string CountryName { get; set; }
     }
 }
