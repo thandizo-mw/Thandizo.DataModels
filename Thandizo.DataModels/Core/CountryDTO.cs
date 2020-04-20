@@ -14,5 +14,7 @@ namespace Thandizo.DataModels.Core
         [Required(ErrorMessage = "Country Name cannot be blank")]
         [MaxLength(40, ErrorMessage = "Maximum number of characters for Country Name is 40")]
         public string CountryName { get; set; }
+
+        public string ExternalReferenceNumber { get; set; }
     }
 }
