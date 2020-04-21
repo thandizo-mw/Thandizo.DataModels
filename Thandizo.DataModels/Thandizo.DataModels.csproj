@@ -5,6 +5,7 @@
     <Authors>Thandizo Development Team</Authors>
     <Company>Thandizo</Company>
     <Version>1.0.2.7</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

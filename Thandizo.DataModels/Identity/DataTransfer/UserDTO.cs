@@ -1,16 +1,12 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Thandizo.DataModels.Identity.DataTransfer
 {
-    public class LoginDTO
+    public class UserDTO
     {
         [Required(ErrorMessage = "Phone number cannot be blank")]
         [MinLength(10, ErrorMessage = "Minimum number of characters for phone number is 10")]
-        [Display(Name = "Phone number")]
-        public string Username { get; set; }
-        [Required]
+        public string PhoneNumber { get; set; }
         public string Password { get; set; }
-        public bool RememberLogin { get; set; }
-        public string ReturnUrl { get; set; }
     }
 }
