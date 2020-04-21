@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Thandizo Development Team</Authors>
     <Company>Thandizo</Company>
-    <Version>1.0.3.2</Version>
+    <Version>1.0.3.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <FileVersion>1.0.3.2</FileVersion>
+    <FileVersion>1.0.3.3</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
