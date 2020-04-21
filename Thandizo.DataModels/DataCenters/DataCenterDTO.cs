@@ -21,7 +21,7 @@ namespace Thandizo.DataModels.DataCenters
         public string DistrictCode { get; set; }
 
         [Required(ErrorMessage = "Is Health Facility cannot be blank")]
-        [Range (typeof(bool), "true", "false", ErrorMessage = "Is Health Facility has to either be true or false")]
+        [Range (typeof(bool), "False", "True", ErrorMessage = "Is Health Facility has to either be true or false")]
         public bool IsHealthFacility { get; set; }
     }
 }
