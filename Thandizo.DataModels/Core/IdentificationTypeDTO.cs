@@ -10,5 +10,7 @@ namespace Thandizo.DataModels.Core
         [Required(ErrorMessage = "Description cannot be blank")]
         [MaxLength(30, ErrorMessage = "Maximum number of characters for Description is 30")]
         public string Description { get; set; }
+
+        public string ExternalReferenceNumber { get; set; }
     }
 }

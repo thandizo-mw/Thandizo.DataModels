@@ -1,15 +1,29 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Thandizo.DataModels.Patients.Responses
 {
     public class PatientResponse : PatientDTO
     {
+        [Display(Name = "Patient Status")]
         public string PatientStatusName { get; set; }
+
+        [Display(Name = "District")]
         public string DistrictName { get; set; }
+
+        [Display(Name = "Identitification Type")]
         public string IdentitificationTypeName { get; set; }
+
+        [Display(Name = "Nationality")]
         public string NationalityName { get; set; }
+
+        [Display(Name = "Transmission Classification")]
         public string ClassificationName { get; set; }
+        
+        [Display(Name = "Source")]
         public string SourceName { get; set; }
+
+        [Display(Name = "Age")]
         public int Age
         {
             get
@@ -20,6 +34,8 @@ namespace Thandizo.DataModels.Patients.Responses
                 return age;
             }
         }
+
+        [Display(Name = "Gender")]
         public string GenderName
         {
             get
@@ -28,5 +44,8 @@ namespace Thandizo.DataModels.Patients.Responses
                 return genderName;
             }
         }
+
+        [Display(Name = "Country Of Residence")]
+        public string CountryName { get; set; }
     }
 }
