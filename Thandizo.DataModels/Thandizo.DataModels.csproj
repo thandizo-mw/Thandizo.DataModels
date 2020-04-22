@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Thandizo Development Team</Authors>
     <Company>Thandizo</Company>
-    <Version>1.0.3.5</Version>
+    <Version>1.0.3.6</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <FileVersion>1.0.3.5</FileVersion>
-    <AssemblyVersion>1.0.3.5</AssemblyVersion>
+    <FileVersion>1.0.3.6</FileVersion>
+    <AssemblyVersion>1.0.3.6</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
