@@ -22,5 +22,7 @@ namespace Thandizo.DataModels.Core
         public string PhoneNumber { get; set; }
 
         public string EmailAddress { get; set; }
+
+        public bool UserCreation { get; set; } = false;
     }
 }
