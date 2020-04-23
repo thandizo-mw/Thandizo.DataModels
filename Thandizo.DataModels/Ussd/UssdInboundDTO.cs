@@ -1,16 +1,16 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json.Serialization;
 
 namespace Thandizo.DataModels.Ussd
 {
     public class UssdInboundDTO
     {
-        [JsonProperty("m")]
+        [JsonPropertyName("m")]
         public string Msisdn { get; set; }
-        [JsonProperty("b")]
+        [JsonPropertyName("b")]
         public string Body { get; set; }
-        [JsonProperty("s")]
+        [JsonPropertyName("s")]
         public string Sessionid { get; set; }
-        [JsonProperty("t")]
+        [JsonPropertyName("t")]
         public string Type { get; set; }
     }
 }
