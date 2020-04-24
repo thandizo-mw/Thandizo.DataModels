@@ -8,8 +8,6 @@ namespace Thandizo.DataModels.Identity.DataTransfer
         [MinLength(10, ErrorMessage = "Minimum number of characters for phone number is 10")]
         public string Username { get; set; }
 
-        [Required(ErrorMessage = "Current password cannot be blank")]
-        [MinLength(6, ErrorMessage = "Minimum number of characters for the current password is 6")]
         public string CurrentPassword { get; set; }
 
         [Required(ErrorMessage = "Current password cannot be blank")]
