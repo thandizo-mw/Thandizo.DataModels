@@ -2,7 +2,7 @@
 
 namespace Thandizo.DataModels.Identity.DataTransfer
 {
-    public class PasswordResetDTO
+    public class PasswordChangeDTO
     {
         [Required(ErrorMessage = "Phone number cannot be blank")]
         [MinLength(10, ErrorMessage = "Minimum number of characters for phone number is 10")]

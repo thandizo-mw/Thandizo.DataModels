@@ -2,7 +2,7 @@
 
 namespace Thandizo.DataModels.Identity.ViewModels
 {
-    public class PasswordResetViewModel : PasswordResetDTO
+    public class PasswordChangeViewModel : PasswordChangeDTO
     {
     }
 }
