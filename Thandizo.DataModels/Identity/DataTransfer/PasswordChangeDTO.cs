@@ -13,7 +13,7 @@ namespace Thandizo.DataModels.Identity.DataTransfer
 
         [Required(ErrorMessage = "New password confirmation field cannot be blank")]
         [MinLength(6, ErrorMessage = "Minimum number of characters for the new password is 6")]
-        public string NewPasswordConfirmation { get; internal set; }
+        public string NewPasswordConfirmation { get; set; }
         public string ReturnUrl { get; set; }
     }
 }
