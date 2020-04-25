@@ -1,6 +1,6 @@
 ﻿namespace Thandizo.DataModels.Integrations
 {
-    public class DhisIntegrationMappingDTO
+    public class DhisAttributeDTO
     {
         public string DhisAttributeId { get; set; }
         public string DhisDisplayName { get; set; }
