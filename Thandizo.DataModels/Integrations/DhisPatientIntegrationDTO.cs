@@ -18,5 +18,6 @@ namespace Thandizo.DataModels.Integrations
         public string OtherIdentificationNumber { get; set; }
         public string NationalityName { get; set; }
         public string CountryName { get; set; }
+        public string DistrictCode { get; set; }
     }
 }
