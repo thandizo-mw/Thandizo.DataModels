@@ -9,7 +9,7 @@
         /// <summary>
         /// Continuation of previous session
         /// </summary>
-        Continious = 2,
+        Continuous = 2,
         /// <summary>
         /// End of session
         /// </summary>
