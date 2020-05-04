@@ -26,7 +26,7 @@ namespace Thandizo.DataModels.Patients
 
         [Display(Name = "Gender")]
         [Required(ErrorMessage = "Gender cannot be blank")]
-        [ExpectedStringValue("M,F", ErrorMessage = "Period Type expects M, F values")]
+        [ExpectedStringValue("M,F", ErrorMessage = "Gender expects M, F values")]
         [MaxLength(1, ErrorMessage = "Maximum number of characters for Gender is 1")]
         public string Gender { get; set; }
 
