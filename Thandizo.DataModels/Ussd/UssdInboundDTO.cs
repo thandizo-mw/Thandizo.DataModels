@@ -1,6 +1,4 @@
-﻿using System.Runtime.Serialization;
-
-namespace Thandizo.DataModels.Ussd
+﻿namespace Thandizo.DataModels.Ussd
 {
     public class UssdInboundDTO
     {
