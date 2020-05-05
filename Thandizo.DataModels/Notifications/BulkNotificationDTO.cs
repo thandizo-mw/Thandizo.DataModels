@@ -19,6 +19,11 @@ namespace Thandizo.DataModels.Notifications
         [Required(ErrorMessage = "Send Date cannot be blank")]
         public DateTime SendDate { get; set; }
 
+        [Required(ErrorMessage = "Channel Id cannot be blank")]
+        [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Channel Id")]
+        [Display(Name = "Channel")]
+        public int ChannelId { get; set; }
+
 
 
     }
