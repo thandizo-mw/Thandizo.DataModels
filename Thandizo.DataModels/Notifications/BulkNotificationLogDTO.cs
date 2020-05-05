@@ -16,6 +16,11 @@ namespace Thandizo.DataModels.Notifications
         [Display(Name = "Notification")]
         public long NotificationId { get; set; }
 
+
+        [Display(Name = "Phone Number")]
+        [MaxLength(20, ErrorMessage = "Maximum length for Phone Number is 20")]
+        public string PhoneNumber { get; set; }
+
         [Required(ErrorMessage = "Status cannot be blank")]
         [ExpectedStringValue("S,D,R,E", ErrorMessage = "Status expects either S, D, R or E values")]
         [MaxLength(1, ErrorMessage = "Maximum number of characters for Status is 1")]
