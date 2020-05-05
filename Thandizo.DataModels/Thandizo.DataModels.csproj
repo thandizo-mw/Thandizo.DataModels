@@ -4,15 +4,19 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>Thandizo Development Team</Authors>
     <Company>Thandizo</Company>
-    <Version>1.0.4.6</Version>
+    <Version>1.0.5.7</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <FileVersion>1.0.4.6</FileVersion>
-    <AssemblyVersion>1.0.4.6</AssemblyVersion>
+    <FileVersion>1.0.5.7</FileVersion>
+    <AssemblyVersion>1.0.5.7</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
     <PackageReference Include="System.Text.Json" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Notifications\Responses\" />
   </ItemGroup>
 
 </Project>
