@@ -14,7 +14,7 @@ namespace Thandizo.DataModels.Notifications
 
         [Range(1, long.MaxValue, ErrorMessage = "Please enter valid number for Patient Id")]
         [Display(Name = "Patient")]
-        public int PatientId { get; set; }
+        public long PatientId { get; set; }
 
         [Required(ErrorMessage = "Channel Id cannot be blank")]
         [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Channel Id")]
@@ -38,8 +38,8 @@ namespace Thandizo.DataModels.Notifications
 
         [Display(Name = "Is Active")]
         [Required(ErrorMessage = "Is Active cannot be blank")]
-        [MaxLength(1, ErrorMessage = "Maximum length for Is Active is 1")]
-        public string IsActive { get; set; }
+        [Range(typeof(bool), "False", "True", ErrorMessage = "Is Active has to either be true or false")]
+        public bool IsActive { get; set; }
 
         [Required(ErrorMessage = "Interval cannot be blank")]
         [ExpectedStringValue("O,W,M", ErrorMessage = "Interval expects O, W, M values")]
