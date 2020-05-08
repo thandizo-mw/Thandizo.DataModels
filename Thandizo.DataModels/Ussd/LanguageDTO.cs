@@ -128,5 +128,6 @@
         public string RecordedBodyTemperature { get; set; }
         public string ShortnessOfBreath { get; set; }
         public string DriversLicense { get; set; }
+        public string NotFoundIdentificationTypes { get; set; }
     }
 }
