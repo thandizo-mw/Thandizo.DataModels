@@ -107,7 +107,6 @@
         public string NextOfKinFullName { get; set; }
         public string NextOfKinPhoneNumber { get; set; }
         public string PatientSelection { get; set; }
-
         public string ErrorBlankNextOfKinFullName { get; set; }
         public string MultiplePatients { get; set; }
         public string ErrorBlankPhoneNumber { get; set; }
@@ -129,5 +128,8 @@
         public string ShortnessOfBreath { get; set; }
         public string DriversLicense { get; set; }
         public string NotFoundIdentificationTypes { get; set; }
+        public string StatisticsMenu { get; set; }
+        public string PatientReportingMenu { get; set; }
+        public string ReturnToPreviousMenu { get; set; }
     }
 }
