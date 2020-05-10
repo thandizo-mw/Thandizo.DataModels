@@ -13,5 +13,6 @@
         public const string Seven = "7";
         public const string Eight = "8";
         public const string Nine = "9";
+        public const string SignOut = "99";
     }
 }
