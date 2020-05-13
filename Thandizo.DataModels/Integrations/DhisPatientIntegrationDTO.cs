@@ -15,9 +15,10 @@ namespace Thandizo.DataModels.Integrations
         public string NextOfKinLastName { get; set; }
         public string NextOfKinFirstName { get; set; }
         public string NextOfKinPhoneNumber { get; set; }
-        public string OtherIdentificationNumber { get; set; }
+        public string PhysicalAddress { get; set; }
         public string NationalityName { get; set; }
         public string CountryName { get; set; }
-        public string DistrictCode { get; set; }
+        public string PhoneNumber { get; set; }
+        public string DistrictName { get; set; }
     }
 }
