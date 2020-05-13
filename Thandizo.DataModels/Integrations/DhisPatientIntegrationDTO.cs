@@ -20,5 +20,6 @@ namespace Thandizo.DataModels.Integrations
         public string CountryName { get; set; }
         public string PhoneNumber { get; set; }
         public string DistrictName { get; set; }
+        public string DistrictCode { get; set; }
     }
 }
