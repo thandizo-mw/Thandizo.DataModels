@@ -21,5 +21,10 @@ namespace Thandizo.DataModels.Notifications
         [MaxLength(1, ErrorMessage = "Maximum number of characters for Status is 1")]
         [Display(Name = "Status")]
         public string Status { get; set; }
+
+        [Required(ErrorMessage = "Recipient cannot be blank")]
+        [MaxLength(20, ErrorMessage = "Maximum number of characters for Recipient is 20")]
+        [Display(Name = "Recipient")]
+        public string Recipient { get; set; }
     }
 }
