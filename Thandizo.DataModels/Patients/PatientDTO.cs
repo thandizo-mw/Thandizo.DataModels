@@ -121,5 +121,8 @@ namespace Thandizo.DataModels.Patients
         [Display(Name = "Is Self Registered?")]
         [Required(ErrorMessage = "Is Self Registered cannot be blank")]
         public bool IsSelfRegistered { get; set; }
+
+        [Display(Name = "External Reference Number")]
+        public string ExternalReferenceNumber { get; set; }
     }
 }
