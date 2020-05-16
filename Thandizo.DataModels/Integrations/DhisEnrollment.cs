@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Thandizo.DataModels.Integrations
 {
@@ -8,5 +9,6 @@ namespace Thandizo.DataModels.Integrations
         public string Program { get; set; }
         public DateTime EnrollmentDate { get; set; }
         public DateTime IncidentDate { get; set; }
+        public IEnumerable<DhisEvent> Events { get; set; }
     }
 }
