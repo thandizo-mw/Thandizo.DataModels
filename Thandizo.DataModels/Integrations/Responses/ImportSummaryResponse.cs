@@ -9,5 +9,7 @@ namespace Thandizo.DataModels.Integrations.Responses
         public ImportCountResponse ImportCount { get; set; }
         public IEnumerable<ConflictResponse> Conflicts { get; set; }
         public EnrollmentResponse Enrollments { get; set; }
+        public string Reference { get; set; }
+        public string Href { get; set; }
     }
 }
