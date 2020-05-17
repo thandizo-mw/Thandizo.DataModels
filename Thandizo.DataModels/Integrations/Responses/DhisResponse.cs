@@ -6,7 +6,6 @@
         public int HttpStatusCode { get; set; }
         public string Status { get; set; }
         public string Message { get; set; }
-        public ImportSummaryResponse Response { get; set; }
-        public int Total { get; set; }
+        public ImportResponse Response { get; set; }        
     }
 }
