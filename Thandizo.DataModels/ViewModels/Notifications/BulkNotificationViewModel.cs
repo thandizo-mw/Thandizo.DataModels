@@ -10,6 +10,5 @@ namespace Thandizo.DataModels.ViewModels.Notifications
         public BulkNotificationDTO BulkNotification { get; set; }
         public IEnumerable<NotificationChannelDTO> Channels { get; set; }
 
-        public bool SendNow { get; set; }
     }
 }
