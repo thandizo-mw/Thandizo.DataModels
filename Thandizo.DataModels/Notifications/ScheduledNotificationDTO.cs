@@ -26,7 +26,7 @@ namespace Thandizo.DataModels.Notifications
 
         [Required(ErrorMessage = "Notification Template Id cannot be blank")]
         [Range(1, int.MaxValue, ErrorMessage = "Please enter valid number for Notification Template Id")]
-        [Display(Name = "Notification Template")]
+        [Display(Name = "Notification Reminder")]
         public int TemplateId { get; set; }
 
         [Display(Name = "Message")]

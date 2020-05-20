@@ -21,10 +21,10 @@ namespace Thandizo.DataModels.Notifications
         [MaxLength(60, ErrorMessage = "Maximum length for Recipient Address is 60")]
         public string RecipientAddress { get; set; }
 
-        [Display(Name = "Is Registered Patient")]
-        [Required(ErrorMessage = "Is Registered cannot be blank")]
-        [Range(typeof(bool), "False", "True", ErrorMessage = "Is Registered Patient has to either be true or false")]
-        public bool IsRegisteredPatient { get; set; }
+        [Display(Name = "Phone Number")]
+        [Required(ErrorMessage = "Phone Number cannot be blank")]
+        [MaxLength(20, ErrorMessage = "Maximum length for Phone Number is 20")]
+        public string PhoneNumber { get; set; }
 
         [Display(Name = "Subscription Date")]
         [Required(ErrorMessage = "Subscription Date cannot be blank")]
