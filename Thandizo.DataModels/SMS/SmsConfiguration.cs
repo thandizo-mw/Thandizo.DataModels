@@ -10,5 +10,6 @@ namespace Thandizo.DataModels.SMS
         public string BaseUrl { get; set; }
         public string RapidProUserName { get; set; }
         public string RapidProPassword { get; set; }
+        public string RapidProSmsCode { get; set; }
     }
 }
