@@ -131,5 +131,6 @@
         public string StatisticsMenu { get; set; }
         public string PatientReportingMenu { get; set; }
         public string ReturnToPreviousMenu { get; set; }
+        public string Next { get; set; }
     }
 }
