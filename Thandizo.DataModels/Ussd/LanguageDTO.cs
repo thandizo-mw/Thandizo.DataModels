@@ -135,5 +135,6 @@
         public string GetAccessTokenFailed { get; set; }
         public string AuthenticateNumberFailed { get; set; }
         public string HfdRequestFailed { get; set; }
+        public string HfdMenu { get; set; }
     }
 }
