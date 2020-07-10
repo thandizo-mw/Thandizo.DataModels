@@ -131,5 +131,10 @@
         public string StatisticsMenu { get; set; }
         public string PatientReportingMenu { get; set; }
         public string ReturnToPreviousMenu { get; set; }
+        public string Next { get; set; }
+        public string GetAccessTokenFailed { get; set; }
+        public string AuthenticateNumberFailed { get; set; }
+        public string HfdRequestFailed { get; set; }
+        public string HfdMenu { get; set; }
     }
 }

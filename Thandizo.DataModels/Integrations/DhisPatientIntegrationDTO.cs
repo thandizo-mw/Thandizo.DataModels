@@ -21,5 +21,6 @@ namespace Thandizo.DataModels.Integrations
         public string PhoneNumber { get; set; }
         public string DistrictName { get; set; }
         public string DistrictCode { get; set; }
+        public string ExternalReferenceNumber { get; set; }
     }
 }
